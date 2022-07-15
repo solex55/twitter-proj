@@ -25,7 +25,7 @@
         </div>
         <div class="rside">
             <div class="ince">
-                <i class="fas fa-search"></i>
+                <i class="fas fa-hashtag"></i>
             </div>
             <h2>Explore</h2>
         </div>
@@ -54,18 +54,30 @@
         <h2>List</h2>
         </div>
         <div class="rside">
-            <div class="ince">            
-                <i class="fas fa-ellipsis-h"></i>
-            </div>
-            <h2>More</h2>
-        </div>
-        <div class="rside">
             <div class="ince">
                 <i class="fas fa-user"></i>
             </div>
             <h2>Profile</h2>
         </div>
+        <div class="rside">
+            <div class="ince">            
+                <i class="fas fa-ellipsis-h"></i>
+            </div>
+            <h2>More</h2>
+        </div>
         <button class="side-button">Tweet</button>
+        <div class="bio">
+            <div class="display-pic">
+                <img src="./img/profile.jpg" alt="profile-pic" class="profile">
+            </div>
+            <div class="username">
+                <h3>SOLOMON ACH...</h3>
+                <P>@iam_solomun</P>
+            </div>
+            <div class="more">
+                <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+            </div>
+        </div>
     </div>
     <!-- sidebar ends -->
 
@@ -73,16 +85,38 @@
     <div class="main-side">
         <div class="main-header">
             <h2>Home</h2>
+            <i class="fas fa-cogs"></i>
         </div>
 
         <div class="tweet-section">
             <form>
                 <div class="tweetbox">
                     <img src="./img/profile.jpg" alt="profile-pic" class="profile">
-                <input type="text" name="tweet" placeholder="What's happening?">
+                <input type="text" name="tweet" placeholder="What's happening?">  
                 </div>
-                <button class="btn-tweet">Tweet</button>
-            </form>
+                <div class="post-icons">
+                    <div class="icons">
+                        <i class="fas fa-image"></i>
+                    </div> 
+                    <div class="icons">
+                        <i class="fas fa-credit-card" ></i>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-align-left"></i>
+                    </div>                    
+                    <div class="icons">
+                        <i class="fas fa-file-video"></i>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-map-marker"></i>
+                    </div>                    
+                    <button class="btn-tweet">Tweet</button>
+                    
+                </div>                 
+          </form>
         </div>
 
         <!-- feeds starts-->
@@ -92,10 +126,15 @@
             </div>
             <div class="feeds_body">
                 <div class="feeds-header">
-                    <h3>Solomon Achugwoh</h3>
-                    <span class="uname">                   
-                        <span class="verified"><i class="fa fa-check-circle"></i></span>@iam_solomun - 18h
-                    </span>                
+                    <div class="verified">
+                        <h3>Solomon Achugwoh</h3>
+                        <span class="uname">                   
+                            <i class="fa fa-check-circle"></i>@iam_solomun - 18h
+                        </span> 
+                    </div>
+                    <div class="more-feeds">
+                        <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                    </div>
                 </div>
                 <div class="feeds-post">
                     This is a great way to test what I have learnt so far in freontend development!!!
@@ -104,9 +143,25 @@
                     <img src="./img/feeds.png" alt="">
                 </div>
                 <div class="feeds-footer">
-                    <i class="fas fa-retweet"></i>
-                    <i class="fas fa-heart"></i>
-                    <i class="fas fa-upload"></i>
+                    <div class="comment">
+                        <a href="#" style="color: blue;">
+                            <i class="fas fa-comment"></i><h4>40</h4>
+                        </a>
+                    </div>                    
+                    <div class="retweet">
+                        <a href="#">
+                            <i class="fas fa-retweet"></i><h4>900</h4>
+                        </a>                    </div>
+                    <div class="like">
+                        <a href="#">
+                            <i class="fas fa-heart"></i><h4>4.5k</h4>
+                        </a>
+                    </div>
+                    <div class="upload">
+                        <a href="#">
+                            <i class="fas fa-upload"></i><h4>1,902</h4>
+                        </a>
+                    </div>                
                 </div>
             </div>
         </div>
@@ -119,24 +174,45 @@
             </div>
             <div class="feeds_body">
                 <div class="feeds-header">
-                    <h3>Solomon Achugwoh</h3>
-                    <span class="uname">                   
-                        <span class="verified"><i class="fa fa-check-circle"></i></span>@iam_solomun - 18h
-                    </span>                
+                    <div class="verified">
+                        <h3>Achugwoh Solomon</h3>
+                        <span class="uname">                   
+                            &nbsp;&nbsp; @iam_solomun - 18h
+                        </span> 
+                    </div>
+                    <div class="more-feeds">
+                        <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                    </div>
                 </div>
                 <div class="feeds-post">
                     This is a great way to test what I have learnt so far in freontend development!!!
                     This is a replica of twitter homepage, and it will also have a landing page.
-                    <span class="verified"><i class="fas fa-heart"></i></span>
-                    <span class="verified"><i class="fas fa-heart"></i></span>
+                    <span style="color: green;"><i class="fas fa-heart"></i></span>
+                    <span style="color: green;"><i class="fas fa-heart"></i></span>
                 </div>
                 <!-- <div class="feeds-image">
                     <img src="./img/profile.jpg" alt="">
                 </div> -->
                 <div class="feeds-footer">
-                    <i class="fas fa-retweet"></i>
-                    <i class="fas fa-heart"></i>
-                    <i class="fas fa-upload"></i>
+                    <div class="comment">
+                        <a href="#">
+                            <i class="fas fa-comment"></i><h4>10</h4>
+                        </a>
+                    </div>                    
+                    <div class="retweet">
+                        <a href="#">
+                            <i class="fas fa-retweet"></i><h4>450</h4>
+                        </a>                    </div>
+                    <div class="like">
+                        <a href="#">
+                            <i class="fas fa-heart"></i><h4>22.9k</h4>
+                        </a>
+                    </div>
+                    <div class="upload">
+                        <a href="#">
+                            <i class="fas fa-upload"></i><h4>2,402</h4>
+                        </a>
+                    </div>                
                 </div>
             </div>
         </div>
@@ -149,10 +225,64 @@
             </div>
             <div class="feeds_body">
                 <div class="feeds-header">
-                    <h3>Solomon Achugwoh</h3>
-                    <span class="uname">                   
-                        <span class="verified"><i class="fa fa-check-circle"></i></span>@iam_solomun - 18h
-                    </span>                
+                    <div class="verified">
+                        <h3>Solex Solomon</h3>
+                        <span class="uname">                   
+                            <i class="fa fa-check-circle"></i>@iam_solomun - 18h
+                        </span> 
+                    </div>
+                    <div class="more-feeds">
+                        <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                    </div>
+                </div>
+                <div class="feeds-post">
+                    Learning how to take pictures and style them in development
+                </div>
+                <div class="feeds-image">
+                    <img src="./img/pic3.png" alt="">
+                </div>
+                <div class="feeds-footer">
+                    <div class="comment">
+                        <a href="#">
+                            <i class="fas fa-comment"></i><h4>300</h4>
+                        </a>
+                    </div>                    
+                    <div class="retweet">
+                        <a href="#" style="color:green;">
+                            <i class="fas fa-retweet"></i><h4>93k</h4>
+                        </a>                    
+                    </div>
+                    <div class="like">
+                        <a href="#">
+                            <i class="fas fa-heart"></i><h4>34.9k</h4>
+                        </a>
+                    </div>
+                    <div class="upload">
+                        <a href="#">
+                            <i class="fas fa-upload"></i><h4>13</h4>
+                        </a>
+                    </div>                
+                </div>
+            </div>
+        </div>
+        <!-- feeds ends-->
+
+        <!-- feeds starts-->
+        <div class="feeds">
+            <div class="feeds__holder">
+                <img src="./img/profile.jpg" alt="image feeds">
+            </div>
+            <div class="feeds_body">
+                <div class="feeds-header">
+                    <div class="verified">
+                        <h3>Solomon Achugwoh</h3>
+                        <span class="uname">                   
+                            <i class="fa fa-check-circle"></i>@iam_solomun - 18h
+                        </span> 
+                    </div>
+                    <div class="more-feeds">
+                        <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                    </div>
                 </div>
                 <div class="feeds-post">
                     This is a great way to test what I have learnt so far in freontend development!!!
@@ -161,9 +291,120 @@
                     <img src="./img/profile.jpg" alt="">
                 </div>
                 <div class="feeds-footer">
-                    <i class="fas fa-retweet"></i>
-                    <i class="fas fa-heart"></i>
-                    <i class="fas fa-upload"></i>
+                    <div class="comment">
+                        <a href="#" style="color: blue;">
+                            <i class="fas fa-comment"></i><h4>600</h4>
+                        </a>
+                    </div>                    
+                    <div class="retweet">
+                        <a href="#">
+                            <i class="fas fa-retweet"></i><h4>1900</h4>
+                        </a>                    </div>
+                    <div class="like">
+                        <a href="#">
+                            <i class="fas fa-heart"></i><h4>85k</h4>
+                        </a>
+                    </div>
+                    <div class="upload">
+                        <a href="#">
+                            <i class="fas fa-upload"></i><h4>200</h4>
+                        </a>
+                    </div>                
+                </div>
+            </div>
+        </div>
+        <!-- feeds ends-->
+
+        <!-- feeds starts-->
+        <div class="feeds">
+            <div class="feeds__holder">
+                <img src="./img/profile.jpg" alt="image feeds">
+            </div>
+            <div class="feeds_body">
+                <div class="feeds-header">
+                    <div class="verified">
+                        <h3>Solomon Achugwoh</h3>
+                        <span class="uname">                   
+                            &nbsp;&nbsp;</i>@iam_solomun - 18h
+                        </span> 
+                    </div>
+                    <div class="more-feeds">
+                        <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                    </div>
+                </div>
+                <div class="feeds-post">
+                    More functionalities can still be added to it, but for now i would stop here!!!
+                </div>
+                <div class="feeds-footer">
+                    <div class="comment">
+                        <a href="#">
+                            <i class="fas fa-comment"></i><h4>392</h4>
+                        </a>
+                    </div>                    
+                    <div class="retweet">
+                        <a href="#">
+                            <i class="fas fa-retweet"></i><h4>34k</h4>
+                        </a>                    </div>
+                    <div class="like">
+                        <a href="#">
+                            <i class="fas fa-heart"></i><h4>333k</h4>
+                        </a>
+                    </div>
+                    <div class="upload">
+                        <a href="#">
+                            <i class="fas fa-upload"></i><h4>2</h4>
+                        </a>
+                    </div>                
+                </div>
+            </div>
+        </div>
+        <!-- feeds ends-->
+
+        <!-- feeds starts-->
+        <div class="feeds">
+            <div class="feeds__holder">
+                <img src="./img/profile.jpg" alt="image feeds">
+            </div>
+            <div class="feeds_body">
+                <div class="feeds-header">
+                    <div class="verified">
+                        <h3>Solomon Achugwoh</h3>
+                        <span class="uname">                   
+                            <i class="fa fa-check-circle"></i>@iam_solomun - 18h
+                        </span> 
+                    </div>
+                    <div class="more-feeds">
+                        <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                    </div>
+                </div>
+                <div class="feeds-post">
+                    Still taking pictures for the love of it. 
+                    <i class="fas fa-heart" style="color: yellow;"></i>
+                    <i class="fas fa-heart" style="color: yellow;"></i>
+                </div>
+                <div class="feeds-image">
+                    <img src="./img/pic4.png" alt="">
+                </div>
+                <div class="feeds-footer">
+                    <div class="comment">
+                        <a href="#" style="color: blue;">
+                            <i class="fas fa-comment"></i><h4>40</h4>
+                        </a>
+                    </div>                    
+                    <div class="retweet">
+                        <a href="#" style="color: green;">
+                            <i class="fas fa-retweet"></i><h4>900</h4>
+                        </a>                    </div>
+                    <div class="like">
+                        <a href="#">
+                            <i class="fas fa-heart"></i><h4>4.5k</h4>
+                        </a>
+                    </div>
+                    <div class="upload">
+                        <a href="#">
+                            <i class="fas fa-upload"></i><h4>1,902</h4>
+                        </a>
+                    </div>                
                 </div>
             </div>
         </div>
