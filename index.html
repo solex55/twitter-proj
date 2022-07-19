@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg" sizes="32x32" href="./img/twitter-favicon.svg"/>
     <link rel="stylesheet"  href="./css/all.min.css" />
     <link rel="stylesheet" href="style.css">
 	<script src="fontawesome-all.js"></script>
@@ -14,68 +15,73 @@
         
     <!--  sidebar start -->
     <div class="sidebar">
-        <div class="ficon">
-            <i class="fab fa-twitter"></i>
-        </div>
-        <div class="rside active">
+        <div class="top-icons">
+            <div class="ficon">
+                <i class="fab fa-twitter"></i>
+            </div>
+            <div class="rside active">
+                <div class="ince">
+                    <i class="fas fa-home"></i>
+                </div>
+                <h2>Home</h2>
+            </div>
+            <div class="rside">
+                <div class="ince hastag">
+                    <i class="fas fa-hashtag"></i>
+                </div>
+                <h2>Explore</h2>
+            </div>
+            <div class="rside">
             <div class="ince">
-                <i class="fas fa-home"></i>
+                <i class="fas fa-bell"></i>
+            </div>    
+            <h2>Notification</h2>
             </div>
-            <h2>Home</h2>
-        </div>
-        <div class="rside">
-            <div class="ince">
-                <i class="fas fa-hashtag"></i>
+            <div class="rside">
+                <div class="ince">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <h2>Messages</h2>
             </div>
-            <h2>Explore</h2>
-        </div>
-        <div class="rside">
-        <div class="ince">
-            <i class="fas fa-bell"></i>
-        </div>    
-        <h2>Notification</h2>
-        </div>
-        <div class="rside">
-            <div class="ince">
-                <i class="fas fa-envelope"></i>
+            <div class="rside">
+                <div class="ince bookmarks">
+                    <i class="fas fa-bookmark"></i>
+                </div>
+                <h2>Bookmark</h2>
             </div>
-            <h2>Messages</h2>
-        </div>
-        <div class="rside">
-            <div class="ince">
-                <i class="fas fa-bookmark"></i>
+            <div class="rside">
+            <div class="ince lists">
+                <i class="fas fa-list-alt"></i>
+            </div> 
+            <h2>List</h2>
             </div>
-            <h2>Bookmark</h2>
-        </div>
-        <div class="rside">
-        <div class="ince">
-            <i class="fas fa-list-alt"></i>
-        </div> 
-        <h2>List</h2>
-        </div>
-        <div class="rside">
-            <div class="ince">
-                <i class="fas fa-user"></i>
+            <div class="rside">
+                <div class="ince">
+                    <i class="fas fa-user"></i>
+                </div>
+                <h2>Profile</h2>
             </div>
-            <h2>Profile</h2>
-        </div>
-        <div class="rside">
-            <div class="ince">            
-                <i class="fas fa-ellipsis-h"></i>
+            <div class="rside">
+                <div class="ince">            
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <h2>More</h2>
             </div>
-            <h2>More</h2>
-        </div>
-        <button class="side-button">Tweet</button>
-        <div class="bio">
-            <div class="display-pic">
-                <img src="./img/profile.jpg" alt="profile-pic" class="profile">
+            <button class="side-button">Tweet</button>
+            <div class="tweet">
+                <img src="img/Tweet.svg" alt="">
             </div>
-            <div class="username">
-                <h3>SOLOMON ACH...</h3>
-                <P>@iam_solomun</P>
-            </div>
-            <div class="more">
-                <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+            <div class="bio">
+                <div class="display-pic">
+                    <img src="./img/profile.jpg" alt="profile-pic" class="profile">
+                </div>
+                <div class="username">
+                    <h3>SOLOMON ACH...</h3>
+                    <P>@iam_solomun</P>
+                </div>
+                <div class="more">
+                    <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                </div>
             </div>
         </div>
     </div>
@@ -95,22 +101,22 @@
                 <input type="text" name="tweet" placeholder="What's happening?">  
                 </div>
                 <div class="post-icons">
-                    <div class="icons">
+                    <div class="icons" title="Media">
                         <i class="fas fa-image"></i>
                     </div> 
-                    <div class="icons">
+                    <div class="icons" title="GIF">
                         <i class="fas fa-credit-card" ></i>
                     </div>
-                    <div class="icons">
+                    <div class="icons" title="polls">
                         <i class="fas fa-align-left"></i>
                     </div>                    
-                    <div class="icons">
+                    <div class="icons" title="Schedule">
                         <i class="fas fa-file-video"></i>
                     </div>
-                    <div class="icons">
+                    <div class="icons" title="Emoji">
                         <i class="fas fa-handshake"></i>
                     </div>
-                    <div class="icons">
+                    <div class="icons" title="Tag Location">
                         <i class="fas fa-map-marker"></i>
                     </div>                    
                     <button class="btn-tweet">Tweet</button>
@@ -127,7 +133,7 @@
             <div class="feeds_body">
                 <div class="feeds-header">
                     <div class="verified">
-                        <h3>Solomon Achugwoh</h3>
+                        <h3>Solex</h3>
                         <span class="uname">                   
                             <i class="fa fa-check-circle"></i>@iam_solomun - 18h
                         </span> 
@@ -175,7 +181,7 @@
             <div class="feeds_body">
                 <div class="feeds-header">
                     <div class="verified">
-                        <h3>Achugwoh Solomon</h3>
+                        <h3>Solomon</h3>
                         <span class="uname">                   
                             &nbsp;&nbsp; @iam_solomun - 18h
                         </span> 
@@ -226,7 +232,7 @@
             <div class="feeds_body">
                 <div class="feeds-header">
                     <div class="verified">
-                        <h3>Solex Solomon</h3>
+                        <h3>Solex</h3>
                         <span class="uname">                   
                             <i class="fa fa-check-circle"></i>@iam_solomun - 18h
                         </span> 
@@ -275,9 +281,9 @@
             <div class="feeds_body">
                 <div class="feeds-header">
                     <div class="verified">
-                        <h3>Solomon Achugwoh</h3>
+                        <h3>Solomon</h3><i class="fa fa-check-circle"></i>
                         <span class="uname">                   
-                            <i class="fa fa-check-circle"></i>@iam_solomun - 18h
+                            @iam_solomun - 18h
                         </span> 
                     </div>
                     <div class="more-feeds">
@@ -323,9 +329,9 @@
             <div class="feeds_body">
                 <div class="feeds-header">
                     <div class="verified">
-                        <h3>Solomon Achugwoh</h3>
+                        <h3>Solex</h3>
                         <span class="uname">                   
-                            &nbsp;&nbsp;</i>@iam_solomun - 18h
+                            &nbsp;&nbsp;@iam_solomun - 18h
                         </span> 
                     </div>
                     <div class="more-feeds">
@@ -368,7 +374,7 @@
             <div class="feeds_body">
                 <div class="feeds-header">
                     <div class="verified">
-                        <h3>Solomon Achugwoh</h3>
+                        <h3>Solex</h3>
                         <span class="uname">                   
                             <i class="fa fa-check-circle"></i>@iam_solomun - 18h
                         </span> 
@@ -510,8 +516,193 @@
                 </div>
             </div>
         </div>
+        
+<!--  who-to-follow -->        
+    <div class="who-follow">
+            <div class="who-follow-header">
+                <h2>Who to follow</h2>
+            </div>
+            <div class="follow">
+                <div class="follow-container">
+                    <div class="recommended-follower">
+                        <div class="follower-account-details">
+                            <div class="follower-profile">
+                                <img
+                                    src="./img/pic3.png"
+                                    alt="profile picture"
+                                />
+                            </div>
+                            <div class="name-details">
+                                <div class="follower-name">
+                                    <a href="#">
+                                        <p class="follower-name-1">
+                                            Solomon
+                                        </p>
+                                        <p class="follower-name-2">
+                                            Solex...
+                                        </p>
+                                    </a>
+                                    <span class="verify">
+                                        <img
+                                            src="./img/verified.svg"
+                                            alt="verification-badge"
+                                        />
+                                    </span>
+                                </div>
+                                <div class="follower-username">
+                                    <a href="#">
+                                        <p>@solex</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="follow-button">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                    <div class="promoted">
+                        <div>
+                            <img
+                                src="./img/promoted.svg"
+                                alt="promoted icon"
+                            />
+                        </div>
+                        <div>
+                            <p>Promoted</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="follow">
+                <div class="follow-container">
+                    <div class="recommended-follower">
+                        <div class="follower-account-details">
+                            <div class="follower-profile">
+                                <img
+                                    src="./img/pic4.png"
+                                    alt="profile picture"
+                                />
+                            </div>
+                            <div class="name-details">
+                                <div class="follower-name">
+                                    <a href="#">
+                                        <p>Sols</p>
+                                        <p class="follower-name-2">
+                                            Twitter...
+                                        </p>
+                                    </a>
+                                    <span class="verified">
+                                        <img
+                                            src="./img/verified.svg"
+                                            alt="verification-badge"
+                                        />
+                                    </span>
+                                </div>
+                                <div class="follower-username">
+                                    <a href="#">
+                                        <p>@Sols</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="follow-button">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="follow">
+                <div class="follow-container">
+                    <div class="recommended-follower">
+                        <div class="follower-account-details">
+                            <div class="follower-profile">
+                                <img
+                                    src="./img/pic4.png"
+                                    alt="profile picture"
+                                />
+                            </div>
+                            <div class="name-details">
+                                <div class="follower-name">
+                                    <a href="#">
+                                        <p class="follower-name-1">
+                                            Twitter
+                                        </p>
+                                        <p class="follower-name-2">
+                                            Twitter...
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="follower-username">
+                                    <a href="#">
+                                        <p class="follower-username1">
+                                            @twitter
+                                        </p>
+                                        <p class="follower-username2">
+                                            @twitter...
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="follow-button">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="follow">
+                <div class="more-trends-container">
+                    <a href="#" class="more-trends">
+                        <p>Show more</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="trending-footer">
+            <div class="footer-links">
+                <a href="#" class="footer-link">Terms of Service</a>
+                <a href="#" class="footer-link">Privacy Policy</a>
+                <a href="#" class="footer-link">Cookie Policy</a>
+                <a href="#" class="footer-link">Accessibility</a>
+                <a href="#" class="footer-link">Ads info</a>
+                <a href="#" class="footer-link">More...</a>
+            </div>
+            <div class="copyright-section">
+                <p class="copyright">&copy; 2022 Twitter, Inc.</p>
+            </div>
+        </div>
+
+
     </div>
     <!-- left side end-->
     </main>
+<!--     footer section -->    
+    <footer> 
+        <div class="msgs">
+          <div><a href="" style="color: rgb(225, 227, 228); text-decoration: none;">Messages</a></div>
+          <div><a title="New Message" href=""><img class="last-a" src="img/Message.svg" alt=""></a>
+            <a title="Expand" href=""><img class="last-b" src="img/Expand.svg" alt=""></a>
+          </div>
+        </div>
+
+<!-- nav-down starts -->        
+        <div class="nav-down">
+            <img src="./img/home.svg" alt="">
+            <img src="./img/search2.svg" alt="">
+            <img src="./img/notification.svg" alt="">
+            <img src="./img/message.svg" alt="">
+        </div>
+        <div class="tweetted-btn">
+            <img src="./img/tweet.svg" alt="">
+        </div>
+ <!-- nav-down ends -->        
+
+    </footer>
 </body>
 </html>
